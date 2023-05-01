@@ -1,18 +1,22 @@
 # TaskForceTodoList
-Aplicación TodoList en react con TailwindCss para prueba técnica empresa TaskForce Consulting Colombia
-## Aplicación de TodoList en React
-Esta es una aplicación de TodoList simple hecha en React que le permite al usuario agregar,editar y eliminar tareas. 
+
+Aplicación TodoList en react con TailwindCss para prueba técnica empresa TaskForce Consulting Colombia.
+
+Aplicación de TodoList en React
+
+Esta es una aplicación de TodoList simple hecha en React que le permite al usuario agregar,editar y eliminar tareas.
 La aplicación también tiene la capacidad de marcar tareas como completadas y filtrar tareas por su estado de completado.
 
-### Funcionalidades:
-La aplicación tiene las siguientes funcionalidades:
-1.- Vista de bienvenida con un botón "Seguir adelante" que dirige al usuario a la vista de agregar tarea.
-2.- Vista de agregar tarea con un formulario modal que permite al usuario ingresar un título y una descripción de la tarea.
-3. Tablas de tareas pendientes y completadas que muestran todas las tareas, junto con opciones para marcar como completadas, editar y eliminar tareas.
-4.- Capacidad para eliminar todas las tareas completadas de una sola vez.
-5. Capacidad para agregar nuevas tareas.
+## Funcionalidades
 
-####Cómo funciona:
+La aplicación tiene las siguientes funcionalidades:
+
+1.- Vista de bienvenida con un botón "Seguir adelante" que dirige al usuario a la vista de agregar tarea.
+2.- Vista de agregar tarea con un formulario modal que permite al usuario ingresar un título y una descripción de la tarea. 3. Tablas de tareas pendientes y completadas que muestran todas las tareas, junto con opciones para marcar como completadas, editar y eliminar tareas.
+4.- Capacidad para eliminar todas las tareas completadas de una sola vez. 5. Capacidad para agregar nuevas tareas.
+
+### Cómo funciona
+
 La aplicación utiliza los siguientes hooks de React:
 .- useState: para almacenar y actualizar el estado de la lista de tareas.
 .- useEffect: para actualizar la lista de tareas después de cada operación de agregar, editar o eliminar tarea, y para almacenar la lista de tareas actualizada en localStorage.
